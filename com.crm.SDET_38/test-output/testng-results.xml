@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[createContactsAndVerifyTest is pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-21T12:21:25 IST" name="Suite" finished-at="2022-06-21T12:27:25 IST" duration-ms="360359">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="CreateContactsAndVerifyTest.createContactsAndVerifyTest()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" name="createContactsAndVerifyTest" class="com.crm.vtiger.createContact.CreateContactsAndVerifyTest"/>
+        <method signature="CreateOrganisationAndVerifyTest.createOrganisationAndVerifyTest()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" name="createOrganisationAndVerifyTest" class="com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="CreateContactsByUsingReportsToAndVerifyTest.createContactsByUsingReportsToAndVerifyTest()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" name="createContactsByUsingReportsToAndVerifyTest" class="com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest"/>
+        <method signature="CreateOrganisationByUsingMemberOfAndVerifyTest.createOrganisationByUsingMemberOfAndVerifyTest()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" name="createOrganisationByUsingMemberOfAndVerifyTest" class="com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2022-06-21T12:21:25 IST" name="Test" finished-at="2022-06-21T12:27:25 IST" duration-ms="360359">
+      <class name="com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest">
+        <test-method is-config="true" signature="launchThebrowser()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" started-at="2022-06-21T12:22:55 IST" name="launchThebrowser" finished-at="2022-06-21T12:23:00 IST" duration-ms="4445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchThebrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" started-at="2022-06-21T12:23:00 IST" name="loginToApplication" finished-at="2022-06-21T12:23:12 IST" duration-ms="12528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createContactsByUsingReportsToAndVerifyTest()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" started-at="2022-06-21T12:23:12 IST" name="createContactsByUsingReportsToAndVerifyTest" finished-at="2022-06-21T12:24:32 IST" duration-ms="79695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactsByUsingReportsToAndVerifyTest -->
+        <test-method is-config="true" signature="signOutTheApplication()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" started-at="2022-06-21T12:24:32 IST" name="signOutTheApplication" finished-at="2022-06-21T12:24:40 IST" duration-ms="7500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest@3c7f66c4]" started-at="2022-06-21T12:24:40 IST" name="closeTheBrowser" finished-at="2022-06-21T12:24:40 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtiger.createContact.CreateContactsByUsingReportsToAndVerifyTest -->
+      <class name="com.crm.vtiger.createContact.CreateContactsAndVerifyTest">
+        <test-method is-config="true" signature="connectToDataBase()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:21:25 IST" name="connectToDataBase" finished-at="2022-06-21T12:21:25 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDataBase -->
+        <test-method is-config="true" signature="launchThebrowser()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:21:25 IST" name="launchThebrowser" finished-at="2022-06-21T12:21:32 IST" duration-ms="7204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchThebrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:21:32 IST" name="loginToApplication" finished-at="2022-06-21T12:21:54 IST" duration-ms="22228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createContactsAndVerifyTest()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:21:54 IST" name="createContactsAndVerifyTest" finished-at="2022-06-21T12:22:48 IST" duration-ms="53797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createContactsAndVerifyTest is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactsAndVerifyTest -->
+        <test-method is-config="true" signature="signOutTheApplication()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:22:48 IST" name="signOutTheApplication" finished-at="2022-06-21T12:22:55 IST" duration-ms="7348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:22:55 IST" name="closeTheBrowser" finished-at="2022-06-21T12:22:55 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDataBaseConnection()[pri:0, instance:com.crm.vtiger.createContact.CreateContactsAndVerifyTest@57cf54e1]" started-at="2022-06-21T12:27:25 IST" name="closeDataBaseConnection" finished-at="2022-06-21T12:27:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDataBaseConnection -->
+      </class> <!-- com.crm.vtiger.createContact.CreateContactsAndVerifyTest -->
+      <class name="com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest">
+        <test-method is-config="true" signature="launchThebrowser()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" started-at="2022-06-21T12:24:40 IST" name="launchThebrowser" finished-at="2022-06-21T12:24:44 IST" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchThebrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" started-at="2022-06-21T12:24:44 IST" name="loginToApplication" finished-at="2022-06-21T12:24:57 IST" duration-ms="12873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createOrganisationAndVerifyTest()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" started-at="2022-06-21T12:24:57 IST" name="createOrganisationAndVerifyTest" finished-at="2022-06-21T12:25:48 IST" duration-ms="50878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganisationAndVerifyTest -->
+        <test-method is-config="true" signature="signOutTheApplication()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" started-at="2022-06-21T12:25:48 IST" name="signOutTheApplication" finished-at="2022-06-21T12:25:55 IST" duration-ms="6825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest@194bcebf]" started-at="2022-06-21T12:25:55 IST" name="closeTheBrowser" finished-at="2022-06-21T12:25:55 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtiger.createOrganisation.CreateOrganisationAndVerifyTest -->
+      <class name="com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest">
+        <test-method is-config="true" signature="launchThebrowser()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" started-at="2022-06-21T12:25:55 IST" name="launchThebrowser" finished-at="2022-06-21T12:25:59 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchThebrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" started-at="2022-06-21T12:25:59 IST" name="loginToApplication" finished-at="2022-06-21T12:26:13 IST" duration-ms="13174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createOrganisationByUsingMemberOfAndVerifyTest()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" started-at="2022-06-21T12:26:13 IST" name="createOrganisationByUsingMemberOfAndVerifyTest" finished-at="2022-06-21T12:27:17 IST" duration-ms="64389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganisationByUsingMemberOfAndVerifyTest -->
+        <test-method is-config="true" signature="signOutTheApplication()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" started-at="2022-06-21T12:27:17 IST" name="signOutTheApplication" finished-at="2022-06-21T12:27:25 IST" duration-ms="7678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTheApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest@17497425]" started-at="2022-06-21T12:27:25 IST" name="closeTheBrowser" finished-at="2022-06-21T12:27:25 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtiger.createOrganisation.CreateOrganisationByUsingMemberOfAndVerifyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

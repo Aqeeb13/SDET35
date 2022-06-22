@@ -1,0 +1,14 @@
+com\crm\vtiger\createProduct\CreateProductTest.class
+com\crm\vtiger\createPurchaseOrder\CreatePurchaseOrderAndSelectStatusAsDeliveriableTest.class
+com\crm\vtiger\createProduct\CreateAProductByUsingVenderNameTest.class
+com\crm\vtiger\createCampaign\CreateCampaignByUsingProductAndVerify.class
+com\crm\TestNg\DataProviderTrileTest.class
+com\crm\vtiger\createPurchaseOrder\CreatePurchaseOrderAndSelectAssignedToInThatSelectUserTest.class
+com\crm\vtiger\createPurchaseOrder\CreatePurchaseOrderAndSelectStatusAsReceivedShipmentTest.class
+com\crm\vtiger\createContact\CreateContactsByUsingReportsToAndVerifyTest.class
+com\crm\TestNg\AnimalTest.class
+com\crm\vtiger\createPurchaseOrder\CreatePurchaseOrderAndSelectStatusAsCancelledTest.class
+com\crm\vtiger\createContact\CreateContactsAndVerifyTest.class
+com\crm\vtiger\createOrganisation\CreateOrganisationAndVerifyTest.class
+com\crm\vtiger\createOrganisation\CreateOrganisationByUsingMemberOfAndVerifyTest.class
+com\crm\TestNg\AnnotationTest.class
