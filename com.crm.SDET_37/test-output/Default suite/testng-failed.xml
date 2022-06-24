@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jdbc.connection.AssertionTrail">
+      <class name="com.crm.vtiger.createContact.CreateContactsAndVerifyTest">
         <methods>
           <include name="connectToDataBase"/>
           <include name="launchThebrowser"/>
@@ -11,9 +11,9 @@
           <include name="loginToApplication"/>
           <include name="signOutTheApplication"/>
           <include name="closeTheBrowser"/>
-          <include name="trail"/>
+          <include name="createContactsAndVerifyTest"/>
         </methods>
-      </class> <!-- jdbc.connection.AssertionTrail -->
+      </class> <!-- com.crm.vtiger.createContact.CreateContactsAndVerifyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
