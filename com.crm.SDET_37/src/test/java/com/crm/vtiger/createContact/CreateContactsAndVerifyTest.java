@@ -2,6 +2,7 @@ package com.crm.vtiger.createContact;
 
 import java.util.List;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -42,6 +43,7 @@ public class CreateContactsAndVerifyTest extends BaseClass {
 		//Find FirstName DropDown Locator
 		CreatingNewContactPage createNewContact=new CreatingNewContactPage(driver);
 		WebElement firstName=createNewContact.getFirstNameTitleTxtEdt();
+		//Assert.fail();
 		 
 		//select all the Option in FirstnameDropdown
 		List<WebElement> allOption = wLib.getAllOptionFromDropDown(firstName);
